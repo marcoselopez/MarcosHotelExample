@@ -35,6 +35,10 @@ body {
 .navbar {
   background-color: #a62335;
 }
+.nav-item:hover{
+  border-bottom: 1px solid white;
+  transition-duration: 1s;
+}
 @media (min-width: 420px) {
   .tel-nm {
     display: none;
